@@ -41,6 +41,9 @@ const CreateReminder = () => {
         <ReminderlistPeople people={people} removeEntry={removeEntry} />
       </section>
     </main>
+    
+      
+    
   );
 };
 
