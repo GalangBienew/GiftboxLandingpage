@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0e78d11.css",
+    "main.js": "/static/js/main.8c3f8aae.js",
+    "static/media/Testimonial.jpg": "/static/media/Testimonial.44ff1ae0bf9932983f59.jpg",
+    "static/media/box 5.jpg": "/static/media/box 5.dcc3bf43fe2a30947230.jpg",
+    "static/media/box 4.jpg": "/static/media/box 4.fc4aec1220b4ab2c0ae4.jpg",
+    "static/media/box 3.jpg": "/static/media/box 3.b371fed958a7d5db33b0.jpg",
+    "static/media/box 2.jpg": "/static/media/box 2.603c76382c9144e23cc7.jpg",
+    "static/media/box 1.jpg": "/static/media/box 1.b93e55c79df3840e1d65.jpg",
+    "static/media/box6.jpg": "/static/media/box6.7ea1b4edec601231a181.jpg",
+    "static/media/box7.jpg": "/static/media/box7.19fb98d94d85d1c42c9c.jpg",
+    "static/media/testimonial.jpg": "/static/media/testimonial.5f104140500e846d8783.jpg",
+    "static/media/image_header2.png": "/static/media/image_header2.97ab0cc7ae63c79b1c2d.png",
+    "index.html": "/index.html",
+    "main.d0e78d11.css.map": "/static/css/main.d0e78d11.css.map",
+    "main.8c3f8aae.js.map": "/static/js/main.8c3f8aae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0e78d11.css",
+    "static/js/main.8c3f8aae.js"
+  ]
+}
