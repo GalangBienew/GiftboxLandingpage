@@ -35,7 +35,7 @@ const Header = () => {
         </div>
         <div className="background_hover">
           <div className="background_hoverButton">
-            <a href="https://wa.link/kr7bhc">Yuk tanya tanya kak 📞</a>
+            <a href="wa.link/dqawq4">Yuk tanya tanya kak 📞</a>
           </div>
         </div>
       </div>
