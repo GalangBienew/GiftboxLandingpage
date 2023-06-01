@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Inter:wght@200&family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    
+}
+/* li:hover {
+    background-color: antiquewhite;
+} */
+
+li > a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-family:'Indie Flowers' ;
+}
+
+ .Reminder {
+    color: black;
+    box-sizing: border-box;
+    border: 2px ;
+    padding: 5px ;
+    background-color:darkmagenta;
+    border-radius: 5px 2px 5px 2px;
+ }
+ .Reminder:hover {
+    background-color:burlywood;
+ }
+
+
+header {
+    position: relative;
+    padding: 0.2rem;
+}
+
+.Navbars {
+    width: 100%;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.Navbars .logo > a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'caveat';
+    color: rgb(229, 116, 135);
+}
+
+.Navbars > .links {
+    display: flex;
+    gap: 3rem;  
+}
+
+
+.Navbars .toggle_btn {
+    color: palevioletred;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action_button   {
+    background-color: rgb(229, 116, 135);
+    color: antiquewhite;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.action_button > a {
+    text-decoration: none;
+    color: aqua;
+}
+.action_button:hover {
+    background-color: wheat;
+    scale: 1.05;
+    color: aqua;    
+}
+.action_button:active {
+    scale: 0.95;
+}
+
+/* Dropdown */
+    .dropdown_menu  {
+        height: 240px;      
+    }
+    .dropdown_menu {
+        position: absolute;
+        right: 2rem;
+        top: 60px;
+        height: 0;
+        width: 300px;
+        overflow: hidden;
+    }
+    
+
+    .dropdown_menu > li  {
+        padding: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .dropdown_menu > li > a  {
+        color: violet;
+
+    }
+    .dropdown_menu > .action_button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+/* responsive navbar */
+@media(max-width: 992px) {
+    .Navbars .links,
+    .Navbars .action_button  {
+        display: none;
+    }
+
+    .Navbars .toggle_btn  {
+        display: block;
+    }
+    .dropdown_menu  {
+        display: block;
+    }
+    .dropdown_menu {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: rgba(186, 57, 147, 0.3);
+        width: 0px;
+        height: 66vh;
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        transition: all 0.3s ease-in;
+        /* overflow: hidden; */
+
+      }
+    
+      .dropdown_menu.active {
+        width: 300px;
+      }
+    
+      /* .dropdown_menu ul {
+        display: flex;
+        flex-direction: column;
+      } */
+    
+      .dropdown_menu  li {
+        margin-right: unset;
+        margin-top: 22px;
+      }
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Inter:wght@200&family=Playfair+Display&display=swap');
+
+
+
+.text-center {
+    margin-top: 50px;
+}
+
+.section_text {
+    margin-top: 3rem;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.section_text>h4 {
+    color: antiquewhite;
+    margin-left: 4px;
+    font-family: 'caveat';
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.Product-text {
+    color: rgb(229, 116, 135);
+}
+
+.subtitle_text {
+    color:rgb(229, 116, 135) ;
+    font-size: 14px;
+    font-family: 'Indie Flower';
+    text-align: center;
+}
+.card {
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/3-three-wrapped-gifts-csa-images.jpg);
+}
+
+
+.img-fluid {
+    width: 200px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    /* background-color: aliceblue; */
+    background-color: rgb(229, 116, 135);
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.close-button {
+    /* flex-direction: column; */
+    position: absolute;
+    top: 13rem;
+    right: 10px;
+}
+
+.close-buttons {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    .card-plus {
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
+
+    .section_text {
+        margin-top: 15rem;
+    }
+
+    
+}
