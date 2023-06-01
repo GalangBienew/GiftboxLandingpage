@@ -13,7 +13,7 @@ export const Productlist = [
   {
     img: box1,
     nama: "Giftbox 1 ",
-    price: "Rp 20.000",
+    price: "Rp 25.000",
     detail: "detail",
     HelloCus: "Hello customers Allforyougif",
 

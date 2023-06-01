@@ -60,20 +60,26 @@
     background-color: rgb(229, 116, 135);
     padding: 40px;
     border-radius: 5px;
-    max-width: 90%;
+    max-width: 40%;
     max-height: 90%;
     overflow-y: auto;
     text-align: center;
 }
-
-.close-button {
-    /* flex-direction: column; */
+ 
+ .close-buttons {
     position: absolute;
-    top: 13rem;
-    right: 10px;
+    top: 3rem;
+    right: 30%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
-.close-buttons {
+/* .close-buttons {
     border-radius: 50%;
     background-color: transparent;
     border: none;
@@ -82,7 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 @media screen and (max-width: 576px) {
     .card-plus {

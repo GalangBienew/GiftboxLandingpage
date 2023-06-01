@@ -96,10 +96,10 @@ const ListProductHere = () => {
             {showTestimonial && detailTestimonial.map((p) => (
               <div className="popup" key={p}>
                 <div className="popup-content">
-                  <div className="close-butons">
+                  <div className="close-buttons">
                     <Button
                       variant="secondary"
-                      className="close-button"
+                      className="close-buttons"
                       onClick={() => setshowTestimonial(false)}
                     >
                       <AiFillCloseCircle />
