@@ -56,30 +56,31 @@
 }
 
 .popup-content {
-    /* background-color: aliceblue; */
-    background-color: rgb(229, 116, 135);
+    background-color: aliceblue; 
+     background-color: rgb(229, 116, 135);
     padding: 40px;
     border-radius: 5px;
     max-width: 40%;
     max-height: 90%;
     overflow-y: auto;
     text-align: center;
-}
- 
- .close-buttons {
-    position: absolute;
-    top: 3rem;
-    right: 30%;
-    border-radius: 50%;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
+    /* position: relative;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%; */
 }
 
-/* .close-buttons {
+.close-buttons {
+     position: absolute;
+    top: 10px;
+    right: 10px;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+
+.close-butons {
     border-radius: 50%;
     background-color: transparent;
     border: none;
@@ -88,18 +89,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 @media screen and (max-width: 576px) {
-    .card-plus {
-        width: 100%;
-        margin-bottom: 1rem;
-        margin-top: 3rem;
-    }
-
-    .section_text {
-        margin-top: 15rem;
-    }
-
+    .popup-content {
+        padding: 20px;
+        max-width: 100%;
+      }
     
+      .close-buttons {
+        top: 5px;
+        right: 5px;
+      }
+
 }

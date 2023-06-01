@@ -18,6 +18,8 @@ const Navbars = () => {
           <ul className='links'>
             <li><Link to ="/">Home</Link></li>
             <li className="Reminder"><Link to="/reminder">Create reminder Birtdays</Link></li>
+            <li><Link to ="/Test">Test</Link></li>
+
           </ul>
           <div   className='action_button'>
           </div>

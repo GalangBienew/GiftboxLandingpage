@@ -13,6 +13,7 @@ import Home from "./component/Pages/Home";
 import { Route, Routes } from "react-router-dom";
 import CreateReminder from "../src/component/Pages/CreateReminder";
 import Notpage from "./component/pagenotFound/Nopage";
+import TestPages from "./component/Pages/test";
 
 function App() {
   const [isLoading, setLoading] = useState(false);
@@ -40,6 +41,7 @@ function App() {
               <Routes>
                 <Route path="/" element={< Home />} />
                 <Route path="/reminder" element={< CreateReminder />} />
+                <Route path="/Test" element={< TestPages />} />
                 <Route path="*" element={< Notpage />} />
               </Routes>            
             </div>
